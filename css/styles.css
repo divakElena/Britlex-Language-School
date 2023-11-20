@@ -1,0 +1,200 @@
+:root {
+  --main-color: #8f95a5;
+  --secondary-color: #263238;
+  --color-dark: #000000;
+  --color-light: #ffffff;
+  --accent-color: #939393;
+  --accent-color-dark: #546269;
+  --border-color: ;
+  --info-color: #2a3246;
+  --secondary-background-color: #f5f5f5;
+}
+
+/* Global styles*/
+body {
+  color: var(--main-color);
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button {
+  color: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  cursor: pointer;
+}
+
+/* Common styles */
+.section {
+  background-color: var(--color-light);
+}
+
+.section-title {
+  color: var(--color-dark);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.67;
+}
+
+.logo {
+  color: var(--color-dark);
+  font-size: 36px;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.list-text {
+  font-size: 20px;
+}
+
+/* Header */
+.header-link {
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.header-button {
+  color: var(--color-dark);
+  font-size: 24px;
+
+  border-radius: 5px;
+  border: 2px solid var(--secondary-color);
+  background-color: var(--color-light);
+}
+
+.header-button:hover,
+.header-button:focus {
+  color: var(--color-light);
+  background-color: var(--accent-color-dark);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--color-dark);
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.hero-text {
+  font-size: 24px;
+}
+
+.hero-button {
+  color: var(--color-light);
+  font-size: 36px;
+
+  border-radius: 15px;
+  background-color: var(--secondary-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--accent-color);
+  background-color: var(--color-light);
+}
+
+/* Skills */
+.skills-card {
+  border-radius: 10px;
+  background: var(--secondary-background-color);
+}
+
+.skills-list-title {
+  color: var(--secondary-color);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 2.67;
+}
+
+.skills-list-text {
+  font-size: 16px;
+}
+
+.skills-button {
+  color: var(--color-light);
+  font-size: 20px;
+  font-weight: 500;
+
+  border-radius: 5px;
+  background: var(--secondary-color);
+}
+
+.skills-button:hover,
+.skills-button:focus {
+  color: var(--accent-color);
+  background-color: var(--color-light);
+}
+
+/* About us */
+.amount {
+  color: var(--info-color);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.67;
+}
+
+/* Pricing */
+.pricing-list-title {
+  color: var(--secondary-color);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.price {
+  color: var(--secondary-color);
+  font-size: 30px;
+}
+
+.period {
+  color: var(--accent-color-dark);
+  font-size: 18px;
+}
+
+/* Contact Us */
+.user-contact {
+  font-size: 16px;
+
+  border-radius: 10px;
+  border: 1px solid var(--main-color);
+}
+
+.subscribe-button {
+  color: var(--color-light);
+  font-size: 20px;
+  font-weight: 500;
+
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  color: var(--accent-color);
+  background-color: var(--color-light);
+}
+
+/* Footer */
+.footer-link {
+  font-size: 24px;
+}
